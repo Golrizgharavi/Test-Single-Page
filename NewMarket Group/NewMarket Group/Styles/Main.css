@@ -1,0 +1,171 @@
+﻿@font-face {
+    font-family: 'Arial, Helvetica, sans-serif';
+    src: url('http://domain.com/fonts/font.ttf'); /*URL to font*/
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #000;
+    font: sans-serif;
+    background-color: #ccc;
+    font-family: sans-serif;
+}
+
+
+
+hr {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    margin: 0
+}
+
+.BGImg {
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pImg1 {
+    background-image: url('https://d13p2xj50zkyqm.cloudfront.net/promos_1/health/SOL/dreamcherry_0418/cherries.jpg');
+    min-height: 100vh;
+}
+
+
+
+
+.section {
+    text-align: center;
+    padding: 30px 20px;
+    border: .1em solid #ccc;
+    box-shadow: 1px 2px 30px #8d8b8b;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    margin: -70px 7% 7% 7%;
+    display: flex;
+}
+
+.SectionInner {
+}
+
+.section .Title {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 20px;
+    color: #222;
+    white-space: pre-line;
+}
+
+
+.section .Text {
+    display: block;
+    margin-bottom: 20px;
+    white-space: pre-line;
+}
+
+.section .Bio {
+    background-color: #aaf17d;
+    box-shadow: 0 0 6px #818181;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 30%;
+    float: right;
+    margin: 0 0 20px 20px;
+  
+}
+
+
+.Bio .imgHolder {
+    margin: 10px;
+}
+
+.img-responcive {
+    max-height: 200px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.Bio img {
+    border-radius: 50%;
+    box-shadow: 1px 2px 10px #8d8b8b;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.Bio i {
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #222;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.Bio .Content {
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px 1px #666;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #666;
+    padding:10px;    
+}
+
+.myImg1 {
+    float: right;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #818181;
+}
+
+
+.Red {
+    color: #b31414;
+    display: block;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .section .Bio {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .myImg1 {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+@media (max-width:568px) {
+    .BGImg {
+        background-attachment: scroll;
+    }
+}
